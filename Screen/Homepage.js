@@ -50,7 +50,7 @@ export default function Home(){
     return (
         <SafeAreaView>
             {renderHeader()}
-            {render}
+            
         </SafeAreaView>
     )
     
