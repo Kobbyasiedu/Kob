@@ -20,6 +20,8 @@ export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
+        <View style={{alignItems: 'center', justifyContent: 'center', height: 400, width: 400, backgroundColor: 'yellow', borderRadius: 10}}>
+        <Text style={{fontWeight: 'bold', fontSize: 20, marginBottom: 20}}>User Login account</Text>
         <TextInput
           value={this.state.username}
           onChangeText={(username) => this.setState({ username })}
@@ -34,14 +36,20 @@ export default class App extends Component {
           style={styles.input}
         />
 
-        <Text>forgot password</Text>
+        <TouchableOpacity style={{marginBottom: 10}}><Text style={{color: 'gray', fontWeight: 'bold'}}>forgot password</Text></TouchableOpacity>
 
-        <Button
-          title={'Login'}
-          style={styles.input}
-          onPress={this.onLogin.bind(this)}
-        />
+        <TouchableOpacity
+            style={{width: 150, height: 40, backgroundColor: 'black', borderRadius: 20, alignItems: 'center', justifyContent: 'center'}}
+        >
+            <Text style={{color: 'white', padding: 5}}>Login</Text>
+        </TouchableOpacity>
 
+        <View style={{flexDirection: 'row', marginTop: 100}}>
+            <Text>Don't have an account?</Text>
+            <TouchableOpacity><Text style={{color: 'white', fontWeight: 'bold'}}>SignUp</Text></TouchableOpacity>
+        </View>
+
+      </View>
       </View>
     );
   }
