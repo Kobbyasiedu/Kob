@@ -21,7 +21,7 @@ export default class App extends Component {
     return (
       <View style={styles.container}>
         <View style={{alignItems: 'center', justifyContent: 'center', height: 400, width: 400, backgroundColor: 'yellow', borderRadius: 10}}>
-        <Text style={{fontWeight: 'bold', fontSize: 20, marginBottom: 20}}>User Login account</Text>
+        <Text style={{fontWeight: 'bold', fontSize: 20, marginBottom: 20SSS}}>User Login account</Text>
         <TextInput
           value={this.state.username}
           onChangeText={(username) => this.setState({ username })}
