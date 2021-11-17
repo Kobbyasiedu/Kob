@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Alert, Button, TextInput, View, StyleSheet, TouchableOpacity, Text } from 'react-native';
+import { Alert, Button, TextInput, View, StyleSheet, TouchableOpacity, Text, ImageBackground } from 'react-native';
 
 export default class App extends Component {
   constructor(props) {
@@ -19,9 +19,9 @@ export default class App extends Component {
 
   render() {
     return (
-      <View style={styles.container}>
-        <View style={{alignItems: 'center', justifyContent: 'center', height: 400, width: 400, backgroundColor: 'yellow', borderRadius: 10}}>
-        <Text style={{fontWeight: 'bold', fontSize: 20, marginBottom: 20SSS}}>User Login account</Text>
+      <ImageBackground source={{uri: 'https://images.unsplash.com/photo-1637152740336-da2baefdbf2e?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}} style={styles.container}>
+        <View style={{alignItems: 'center', justifyContent: 'center', height: 500, width: 400, backgroundColor: '#ced0d0', borderRadius: 10}}>
+        <Text style={{fontWeight: 'bold', fontSize: 20, marginBottom: 20, marginTop: 40}}>Sign In</Text>
         <TextInput
           value={this.state.username}
           onChangeText={(username) => this.setState({ username })}
@@ -50,7 +50,7 @@ export default class App extends Component {
         </View>
 
       </View>
-      </View>
+      </ImageBackground>
     );
   }
 }
