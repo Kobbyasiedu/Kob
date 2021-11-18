@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Alert, Button, TextInput, View, StyleSheet, TouchableOpacity, Text, ImageBackground } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default class App extends Component {
   constructor(props) {
@@ -16,9 +17,12 @@ export default class App extends Component {
 
     Alert.alert('Credentials', `${username} + ${password}`);
   }
+  
+  
 
   render() {
     return (
+      
       <ImageBackground source={{uri: 'https://images.unsplash.com/photo-1637152740336-da2baefdbf2e?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}} style={styles.container}>
         <View style={{alignItems: 'center', justifyContent: 'center', height: 500, width: 400, backgroundColor: '#ced0d0', borderRadius: 10}}>
         <Text style={{fontWeight: 'bold', fontSize: 20, marginBottom: 20, marginTop: 40}}>Sign In</Text>

@@ -15,7 +15,9 @@ export default function Home(){
             flex: 1, 
             backgroundColor: 'white', 
             width: '100%', 
-            height: '100%'}}>
+            height: '100%',
+            justifyContent: 'center',
+            alignItems: 'center'}}>
                
         <View style={{
             flexDirection: 'row',
@@ -76,122 +78,161 @@ export default function Home(){
                 
                        
         </View>
+
         <ScrollView>
-        <View style={{
-            flexDirection: 'column', 
-            marginVertical: 20
-             
-            }}>
-            <View style={{
-                flexDirection: 'row',                
-                justifyContent: 'space-evenly' }}>
-                <TouchableOpacity><Image 
-                source={{uri: 'https://images.unsplash.com/photo-1637099525156-a300600b607b?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}
-                style={{height: 50, width: 50}}>
+            <View style={{flexDirection: 'column', marginVertical: 30}}>
+                <View style={{flexDirection: 'row'}}>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://media.istockphoto.com/photos/home-appliances-picture-id489937474?b=1&k=20&m=489937474&s=170667a&w=0&h=efKyLmj93wbLXtpgSxp73gfhZDZOWDD-g9TBVJ31tYE='}}></Image>
+                    </TouchableOpacity>
 
-                </Image></TouchableOpacity>
-                <TouchableOpacity><Image 
-                source={{uri: 'https://images.unsplash.com/photo-1637099525156-a300600b607b?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}
-                style={{height: 50, width: 50}}>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10 }}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1624209190904-aca680ededc1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGFwcGxpYW5jZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity><TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1611090925566-b1fc31065f63?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGFwcGxpYW5jZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity>
 
-                </Image></TouchableOpacity>
-                <TouchableOpacity><Image 
-                source={{uri: 'https://images.unsplash.com/photo-1637099525156-a300600b607b?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}
-                style={{height: 50, width: 50}}>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10 }}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1578643463396-0997cb5328c1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGFwcGxpYW5jZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity>
+                </View>
+                <View style={{flexDirection: 'row'}}>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://media.istockphoto.com/photos/kitchen-picture-id157569788?b=1&k=20&m=157569788&s=170667a&w=0&h=vaMTyDx_02TM3tx0HqLAwGT4sh0MN5xgRU75PvawHYM='}}></Image>
+                    </TouchableOpacity>
 
-                </Image></TouchableOpacity>
-            </View>
-            <View style={{flexDirection: 'row', justifyContent: 'space-evenly'}}>
-                <TouchableOpacity><Image 
-                source={{uri: 'https://images.unsplash.com/photo-1637099525156-a300600b607b?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}
-                style={{height: 50, width: 50}}>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10 }}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1589983006655-4ef9a756ebe3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YXBwbGlhbmNlc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1622660658381-36fbe69d909a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YXBwbGlhbmNlc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity>
 
-                </Image></TouchableOpacity>
-                <TouchableOpacity><Image 
-                source={{uri: 'https://images.unsplash.com/photo-1637099525156-a300600b607b?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}
-                style={{height: 50, width: 50}}>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10 }}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1633114073758-c4be9aeb15ac?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity>
+                </View>
+                <View style={{flexDirection: 'row'}}>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1633114073758-c4be9aeb15ac?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity>
 
-                </Image></TouchableOpacity>
-                <TouchableOpacity><Image 
-                source={{uri: 'https://images.unsplash.com/photo-1637099525156-a300600b607b?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}
-                style={{height: 50, width: 50}}>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10 }}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1633114073758-c4be9aeb15ac?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1633114073758-c4be9aeb15ac?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity>
 
-                </Image></TouchableOpacity>
-            </View>
-            <View style={{flexDirection: 'row', justifyContent: 'space-evenly'}}>
-                <TouchableOpacity><Image 
-                source={{uri: 'https://images.unsplash.com/photo-1637099525156-a300600b607b?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}
-                style={{height: 50, width: 50}}>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10 }}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1633114073758-c4be9aeb15ac?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity>
+                </View>
+                <View style={{flexDirection: 'row'}}>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1633114073758-c4be9aeb15ac?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity>
 
-                </Image>
-                </TouchableOpacity>
-                <TouchableOpacity><Image 
-                source={{uri: 'https://images.unsplash.com/photo-1637099525156-a300600b607b?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}
-                style={{height: 50, width: 50}}>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10 }}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1633114073758-c4be9aeb15ac?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1633114073758-c4be9aeb15ac?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity>
 
-                </Image></TouchableOpacity>
-                <TouchableOpacity><Image 
-                source={{uri: 'https://images.unsplash.com/photo-1637099525156-a300600b607b?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}
-                style={{height: 50, width: 50}}>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10 }}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1633114073758-c4be9aeb15ac?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity>
+                    
+                </View>
+                <View style={{flexDirection: 'row'}}>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1633114073758-c4be9aeb15ac?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity>
 
-                </Image></TouchableOpacity>
-            </View>
-            <View style={{flexDirection: 'row', justifyContent: 'space-evenly'}}>
-                <TouchableOpacity><Image 
-                source={{uri: 'https://images.unsplash.com/photo-1637099525156-a300600b607b?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}
-                style={{height: 50, width: 50}}>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10 }}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1633114073758-c4be9aeb15ac?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1633114073758-c4be9aeb15ac?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity>
 
-                </Image></TouchableOpacity>
-                <TouchableOpacity><Image 
-                source={{uri: 'https://images.unsplash.com/photo-1637099525156-a300600b607b?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}
-                style={{height: 50, width: 50}}>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10 }}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1633114073758-c4be9aeb15ac?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity>
+                    
+                </View>
+                <View style={{flexDirection: 'row'}}>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1633114073758-c4be9aeb15ac?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity>
 
-                </Image></TouchableOpacity>
-                <TouchableOpacity><Image 
-                source={{uri: 'https://images.unsplash.com/photo-1637099525156-a300600b607b?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}
-                style={{height: 50, width: 50}}>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10 }}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1633114073758-c4be9aeb15ac?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1633114073758-c4be9aeb15ac?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity>
 
-                </Image></TouchableOpacity>
-            </View>
-            <View style={{flexDirection: 'row', justifyContent: 'space-evenly'}}>
-                <TouchableOpacity><Image 
-                source={{uri: 'https://images.unsplash.com/photo-1637099525156-a300600b607b?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}
-                style={{height: 50, width: 50}}>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10 }}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1633114073758-c4be9aeb15ac?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity>
+                    
+                </View>
+                <View style={{flexDirection: 'row'}}>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1633114073758-c4be9aeb15ac?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity>
 
-                </Image></TouchableOpacity>
-                <TouchableOpacity><Image 
-                source={{uri: 'https://images.unsplash.com/photo-1637099525156-a300600b607b?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}
-                style={{height: 50, width: 50}}>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10 }}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1633114073758-c4be9aeb15ac?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1633114073758-c4be9aeb15ac?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity>
 
-                </Image></TouchableOpacity>
-                <TouchableOpacity><Image 
-                source={{uri: 'https://images.unsplash.com/photo-1637099525156-a300600b607b?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}
-                style={{height: 50, width: 50}}>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10 }}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1633114073758-c4be9aeb15ac?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity>
+                    
+                </View>
+                <View style={{flexDirection: 'row'}}>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1633114073758-c4be9aeb15ac?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity>
 
-                </Image></TouchableOpacity>
-            </View>
-            <View style={{flexDirection: 'row', justifyContent: 'space-evenly'}}>
-                <TouchableOpacity><Image 
-                source={{uri: 'https://images.unsplash.com/photo-1637099525156-a300600b607b?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}
-                style={{height: 50, width: 50}}>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10 }}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1633114073758-c4be9aeb15ac?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1633114073758-c4be9aeb15ac?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity>
 
-                </Image></TouchableOpacity>
-                <TouchableOpacity><Image 
-                source={{uri: 'https://images.unsplash.com/photo-1637099525156-a300600b607b?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}
-                style={{height: 50, width: 50}}>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10 }}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1633114073758-c4be9aeb15ac?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity>
+                    
+                </View>
+                <View style={{flexDirection: 'row'}}>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1633114073758-c4be9aeb15ac?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity>
 
-                </Image></TouchableOpacity>
-                <TouchableOpacity><Image 
-                source={{uri: 'https://images.unsplash.com/photo-1637099525156-a300600b607b?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}
-                style={{height: 50, width: 50}}>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10 }}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1633114073758-c4be9aeb15ac?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1633114073758-c4be9aeb15ac?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity>
 
-                </Image></TouchableOpacity>
-            </View>
-
-
-
-            </View>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10 }}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://images.unsplash.com/photo-1633114073758-c4be9aeb15ac?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}}></Image>
+                    </TouchableOpacity>
+                    
+                </View>              
+            </View>    
         </ScrollView>
+        
         
     </View>)
         
